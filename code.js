@@ -11,9 +11,9 @@ class Vehicle {
 }
 
 class Bicycle extends Vehicle {
-    constructor(color = "blue", wheels = 4, horn = "beep beep") {
+    constructor(color = "blue", wheels = 2, horn = "honk honk") {
         
-        super(color, 2, "ring ring"); 
+        super(color, wheels, horn); 
     }
 }
 
